@@ -1,1 +1,4 @@
 include COPYING.txt
+include csharp.h
+include sharp.pyx
+include csharp.pxd
