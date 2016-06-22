@@ -3,7 +3,6 @@ from distutils.extension import Extension
 
 setup(
 	name="sharp",
-	packages=["sharp"],
 	version="1.0.0",
 	author="Sigurd Naess",
 	author_email="sigurdkn@astro.uio.no",
