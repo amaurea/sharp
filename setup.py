@@ -10,7 +10,7 @@ setup(
 	long_description=("A python wrapper of the libsharp spherical harmonics "
 		"transform library, from before libsharp got its own wrapper. This "
 		"version used to be more general, but that may no longer be the case."),
-	download_url = 'https://github.com/amaurea/sharp/tarball/1.0.3-noopenmp',
+	download_url = 'https://github.com/amaurea/sharp/tarball/1.0.3n',
 	license = "CC0",
 	keywords = "science spherical harmonics transform",
 	url = "http://packages.python.org/sharp",
