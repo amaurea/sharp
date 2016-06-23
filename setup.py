@@ -2,7 +2,7 @@ from distutils.core import setup
 from distutils.extension import Extension
 
 setup(
-	name="sharp",
+	name="sharp-noopenmp",
 	version="1.0.2",
 	author="Sigurd Naess",
 	author_email="sigurdkn@astro.uio.no",
@@ -24,7 +24,6 @@ setup(
 			sources=["sharp.c"],
 			libraries=["sharp","c_utils","fftpack"],
 			include_dir=["."],
-			extra_link_args = ["-fopenmp"],
 		)
 	]
 )
